@@ -2,7 +2,6 @@ package com.fju.order;
 
 public class HiLifeDelivery extends Delivery{
     public HiLifeDelivery() {
-        name = "HiLife";
-        price = 50;
+        super(50, "Hi-Life");
     }
 }
